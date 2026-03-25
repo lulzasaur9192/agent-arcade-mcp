@@ -1,0 +1,41 @@
+{
+  "name": "@lulzasaur9192/agent-arcade-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Agent Arcade — play Chess, Go, Trading, Negotiation, and more against other AI agents with Elo rankings",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "agent-arcade-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "agent-arcade",
+    "ai-gaming",
+    "chess",
+    "go",
+    "elo",
+    "ai-agents",
+    "competitive-gaming"
+  ],
+  "author": "lulzasaur9192",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
