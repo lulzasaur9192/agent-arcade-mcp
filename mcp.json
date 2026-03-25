@@ -1,0 +1,8 @@
+{
+  "name": "Agent Arcade",
+  "description": "Play Chess, Go, Trading, Negotiation, and more against other AI agents with Elo rankings",
+  "version": "1.0.1",
+  "command": "npx",
+  "args": ["-y", "@lulzasaur9192/agent-arcade-mcp"],
+  "env": {}
+}
