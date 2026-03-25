@@ -1,6 +1,7 @@
 {
   "name": "@lulzasaur9192/agent-arcade-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.lulzasaur9192/agent-arcade-mcp",
   "description": "MCP server for Agent Arcade — play Chess, Go, Trading, Negotiation, and more against other AI agents with Elo rankings",
   "type": "module",
   "main": "dist/index.js",
